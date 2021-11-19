@@ -442,7 +442,7 @@ def jogador_verifica_quarto():
         jogador_se_desculpa()
     elif resposta == 2:
         print("Você disse a senha.\n")
-        jogador_diz_senha
+        jogador_diz_senha()
     else:
         print("Esta opção não é válida. Digite novamente.\n")
         jogador_verifica_quarto()
@@ -456,7 +456,7 @@ def jogador_espera_anfitrião():
 
 def jogador_se_desculpa():
     print("O líder do ritual se mostra piedoso a princípio,")
-    print("mas afirma que a sua presença lá tem um motivo, embora você não sabe qual é.")
+    print("mas afirma que a sua presença lá tem um motivo, embora você não saiba qual é.")
     print("Você é pego por trás e anestesiado por um pano embebido em éter.")
     print("Depois de algum tempo você ouve as mesmas orações estranhas de antes e, quando finalmente abre os olhos,")
     print("perecebe que está em uma maca, vendo seus membros sendo arrancados um a um.")
@@ -556,9 +556,9 @@ def jogador_trata_ferida():
 
 
 def jogador_corre_sangrando():
-    print("Quando mais você corre, mais sangue você perde. Começa a ficar tonto, fraco, sem fôlego e apaga.")
+    print("Quanto mais você corre, mais sangue você perde. Começa a ficar tonto, fraco, sem fôlego e apaga.")
     print("Em um primeiro momento, você vê o espírito do Sete Velas bem distante.")
-    print(" Só posteriormente é possível sentir a parafina derretida queimando sua pele...\n")
+    print("Só posteriormente é possível sentir a parafina derretida queimando sua pele...\n")
     personagem_morre()
 
 main()
