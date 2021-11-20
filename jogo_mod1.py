@@ -3,15 +3,15 @@ import time
 def main():
     time.sleep(2)
 
-    print("========================================================")
-    print("--Seja Bem-vindo(a) à 'A Maldição do Condomínio Saeli--'")
-    print("========================================================")
+    print("==============================================================")
+    print("--Seja Bem-vindo(a) ao jogo 'A Maldição do Condomínio Saeli--'")
+    print("==============================================================")
 
     time.sleep(1)
 
-    print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
-    print("Este jogo é baseado em fatos reais (alguns deles exagerados) e em invenções da minha mente doentia.")
-    print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+    print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
+    print("Este jogo é baseado em histórias reais (algumas delas exageradas) e em invenções da minha mente doentia.")
+    print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
     time.sleep(1)
     print("\nEssa história se passa em um condomínio de alto padrão em uma cidade litorânea.")
     time.sleep(1)
@@ -25,7 +25,7 @@ def main():
     print("E ao procurar pelos 'fujões', ele se utilizava de um castiçal de sete velas,")
     print("ganhando, entre os escravos, a alcunha de 'O Homem das Sete Velas'.\n")
     time.sleep(1)
-    print("A abolição em 1888 fez com que o homem caísse em desgraça ao ver seu cafezal ruir, morrendo anos depois.\n")
+    print("A abolição em 1888 fez com que o homem caísse em desgraça ao ver seu cafezal ruir, morrendo alguns anos depois.\n")
     time.sleep(1)
     print("Apesar de morto há anos, o fantasma dele ainda perambula pelo local,") 
     print("querendo para si o que já foi dele e matando sem piedade quem aparece pelo caminho.\n")
@@ -37,9 +37,9 @@ def main():
 
     print("Hoje é dia de Finados e algumas pessoas estão na orla da lagoa do condomínio, aproveitando o feriado.\n")
     time.sleep(1)
-    print("O dia, que estava bonito, fecha de repente e muitas das pessoas que ali estavam desaparecem sem deixar rastro.\n")
+    print("O dia, que estava bonito, fecha de repente e a maioria das pessoas que estava lá desaparece misteriosamente, sem deixar rastro.\n")
     time.sleep(1)
-    print("Só há três pessoas na orla da lagoa. Quando olham para trás,\nelas veem o espírito do Homem das Sete Velas pairando sobre a água\ne indo em direção a elas, sedento de sangue.\n")
+    print("De todos os presentes, apenas três pessoas restaram na orla da lagoa. Quando olham para trás,\nelas veem o espírito do Homem das Sete Velas pairando sobre a água\ne indo em direção a elas, sedento de sangue.\n")
     time.sleep(1)
 
     print("==========")
@@ -50,7 +50,7 @@ def main():
     seleciona_personagem()
 
 def seleciona_personagem():
-    selecao = int (input ("Digite o número correspondente ao personagem:\n1 - Leandro\n2 - Marcos\n3 - Renata\nDigite 1, 2 ou 3. Ou digite 4 para sair: "))
+    selecao = int (input ("Digite o número correspondente ao personagem:\n1 - Leandro\n2 - Marcos\n3 - Renata\nOu digite 4 para sair: "))
     if selecao == 1:
         print("Você selecionou o personagem Leandro.")
         game_1()
@@ -58,7 +58,7 @@ def seleciona_personagem():
         print("Você selecionou o personagem Marcos.")
         game_2()
     elif selecao == 3:
-        print("Você selecionou o personagem Renata.")
+        print("Você selecionou a personagem Renata.")
         game_3()
     elif selecao == 4:
         print("Tá com medinho?")
@@ -133,7 +133,7 @@ def jogador_esconde():
         jogador_esconde()
     
 def jogador_continua_fuga():
-    print("A princípio nada neste caminho apresenta perigo e, embora o Sete Velas continua a te caçar,\nmais algumas outras rotas se tornam disponíveis para você.")
+    print("A princípio nada neste caminho apresenta perigo e, embora o Sete Velas continua a te caçar,\noutras rotas se tornam disponíveis.")
     print("Digite 1 para entrar na Rua 12 ou 2 para entrar na Rua 13.")
     resposta = int (input("Escolha: "))
     if resposta == 1:
@@ -148,7 +148,7 @@ def jogador_continua_fuga():
     
 def jogador_pega_lanterna():
     print("A velha lanterna lhe parece útil e você decide levá-la consigo.")
-    print("Mas antes que consiga sair da velha casa, o mal tempo e os ventos fortes acabam por derrubá-la; você morre preso aos escombros.\n")
+    print("Mas antes que consiga sair da velha casa, o mal tempo e os ventos fortes acabam por derrubá-la; você morre preso nos escombros.\n")
     personagem_morre()
     
 def jogador_deixa_lanterna():
@@ -162,7 +162,7 @@ def rua_4():
     print("Digite 1 para entrar ou 2 para seguir seu caminho.")
     resposta = int (input("Escolha: "))
     if resposta == 1:
-        print("Você aceitou ajuda.\n")
+        print("Você decidiu entrar.\n")
         jogador_entra_mercedes()
     elif resposta == 2:
         print("Você seguiu em frente.\n")
@@ -172,7 +172,7 @@ def rua_4():
         rua_4()
 
 def jogador_entra_mercedes():
-    print("Ao entrar, você nota o cheiro característico de uma casa que possui dezenas de gatos.")
+    print("Ao entrar, você sente o cheiro característico de uma casa que possui dezenas de gatos.")
     print("Dona Mercedes, a senhora que ofereceu abrigo, também oferece um pouco de comida. O aspecto mal cuidado da casa provoca certo nojo.\n")
     print("Digite 1 para aceitar a comida ou 2 para recusar.")
     resposta = int (input("Escolha: "))
@@ -188,7 +188,7 @@ def jogador_entra_mercedes():
 
 def jogador_segue_pela_4():
     print("Uma placa suja escrito 'Saída' chama a atenção, mas fica a impressão de que nela há algo a mais escrito.")
-    print("Digite 1 para seguir pela suposta saída ou 2 para limpar melhor a placa.")
+    print("Digite 1 para seguir pela suposta saída ou 2 para limpar a placa.")
     resposta = int (input("Escolha: "))
     if resposta == 1:
         print("Você seguiu para a saída.\n")
@@ -202,9 +202,9 @@ def jogador_segue_pela_4():
 
 def jogador_come():
     print("Você se surpreende com a comida oferecida; ela é muito saborosa!")
-    print("Ao mesmo tempo que ela se satisfaz em ver você comendo bem, ela fica curiosa sobre sua fuga.")
+    print("Ao mesmo tempo que Dona Mercedes fica feliz em ver você comendo bem, ela fica curiosa sobre sua fuga.")
     print("Você termina de comer e, por conta da sua gentileza com a idosa, ela se prontifica a conduzir você à saída.")
-    print("Apesar da dificuldade de locomoção da Dona Mercedes, você consegue escapar. O Homem das Sete Velas desaparece.\n")
+    print("Apesar da dificuldade de locomoção da Dona Mercedes, você consegue sair do condomínio. O Homem das Sete Velas desaparece.\n")
     personagem_vive()
     
 def jogador_recusa_comida():
@@ -237,12 +237,12 @@ def jogador_limpa_placa():
 def jogador_mentira_mercedes():
     print("Você adentra uma rua escura, sem identificação.")
     print("Nesse interim, a energia acaba em toda a área do condomínio.")
-    print("Mas há uma luz, porém não era bem essa a luz que você tanto queria. O Sete Velas te capturou.\n")
+    print("Há apenas um facho de luz, apesar de não ser bem a luz que você tanto queria. O Sete Velas te capturou.\n")
     personagem_morre()
 
 def jogador_segue_intuição():
     print("Você continua a empreender fuga desesperadamente, e sem se dar conta cai em um barranco criado pelas fortes chuvas dos dias anteriores.")
-    print("Você fica preso ali e vai definhando dia após dia, sem que ninguém se dê conta.\n")
+    print("Você fica preso ali e vai definhando dia após dia, sem que ninguém perceba sua ausência.\n")
     personagem_morre()
 
 def game_2():
@@ -263,7 +263,7 @@ def game_2():
 def rua_7():
     print("Na sua fuga, você nota que esta é uma rua sem saída, mas no fim dela há um muro.")
     print("É possível pular este muro.\n")
-    print("Digite 1 para pular o muro ou 2 para não pular e se desvenchilar do espírito maligno.")
+    print("Digite 1 para pular o muro ou 2 para não pular e se desvencilhar do espírito maligno.")
     resposta = int (input("Escolha: "))
     if resposta == 1:
         print("Você pula o muro.\n")
@@ -277,7 +277,7 @@ def rua_7():
 
 def jogador_desvencilha():
     print("Certamente uma atitude bastante corajosa, porém igualmente burra.")
-    print("Ao vê-lo sem saída, o Homem das Sete Velas se torna cada vez mais sedendo de sangue.")
+    print("Ao perceber que não há saída, o Homem das Sete Velas se torna cada vez mais sedendo de sangue.")
     print("Nenhuma oração, reza ou qualquer coisa foi capaz de afastá-lo de você.\n")
     personagem_morre()
 
@@ -291,14 +291,14 @@ def jogador_pulou_muro():
         print("Você tentou acalmar o cachorro.\n")
         jogador_acalma_harry()
     elif resposta == 2:
-        print("Você decide tentar se desvencilhar.\n")
+        print("Você decide gritar por socorro.\n")
         jogador_grita()
     else:
         print("Esta opção não é válida. Digite novamente.\n")
         jogador_pulou_muro()
 
 def jogador_acalma_harry():
-    print("O cão para de latir, passa a rosnar e se aproximar cada vez mais de você, como se fosse um lobo faminto.")
+    print("O cão para de latir, passa a rosnar e se aproximar cada vez mais de você, como um lobo faminto.")
     print("Em um momento de distração, o cão vai direto no seu pescoço.\n")
     personagem_morre()
     
@@ -309,8 +309,8 @@ def jogador_grita():
     personagem_morre()
     
 def rua_8():
-    print("Uma bonita casa rosa chama a atenção durante sua fuga. Há relatos de que, no passado,")
-    print("uma ex-moradora participou de um assassinato de grande repercussão no país.")
+    print("Uma bonita casa rosa chama a atenção durante sua fuga. Nos anos 90, sua ex-moradora")
+    print("se tornou conhecida por participar de um assassinato de grande repercussão no país.")
     print("Tal fato causa apreensão em todas as pessoas que passam em frente da casa.\n")
     print("Digite 1 para tocar a campainha ou 2 para pular o muro.")
     resposta = int (input("Escolha: "))
@@ -345,14 +345,14 @@ def rua_5():
     personagem_morre()
     
 def rua_6():
-    print("O movimento de alguns funcionários ao longe e das cancelas te enchem de esperança.")
+    print("O movimento de alguns funcionários e das cancelas ao longe te enchem de esperança.")
     print("Parece que você encontrou a saída por conta própria.\n")
     personagem_vive()
     
 def jogador_muro_casa_rosa():
     print("A casa vazia parece realmente bem cuidada, mas um barulho chama a atenção.")
     print("Você se aproxima e percebe que uma bela piscina está coberta por uma lona.")
-    print("A lona se mexe, dando a entender que algo ou alguém está preso por baixo.\n")
+    print("A lona se mexe, dando a entender que há algo ou alguém preso por baixo.\n")
     print("Digite 1 para remover a lona ou 2 voltar por onde veio.")
     resposta = int (input("Escolha: "))
     if resposta == 1:
@@ -372,7 +372,7 @@ def jogador_remove_lona():
 def jogador_volta_mesmo_caminho():
     print("Por conta do medo, um movimento descuidado faz com que o sistema de alarme seja disparado.")
     print("Câmeras, luzes e cercas elétricas ocultas são ativadas.")
-    print("Você é atingido por uma das cercas, recebendo uma forte descarga que carboniza seu corpo.")
+    print("Você é atingido por uma forte descarga elétrica de uma das cercas que carboniza seu corpo.")
     personagem_morre()
     
 def game_3():
@@ -392,14 +392,14 @@ def game_3():
 def rua_9():
     print("Na sua fuga, você se depara com uma casa na qual uma grande festa está ocorrendo.")
     print("Há vários carros de luxo e outros com placas indicando ser pertencentes a políticos.")
-    print("Você decide buscar ajuda aqui, mas o segurança não parece estar muito dispostoa isso.\n")
+    print("Você decide buscar ajuda aqui, mas o segurança não parece estar muito disposto a isso.\n")
     print("Digite 1 para apelar para o lado emocional do segurança ou 2 para agir grosseiramente.")
     resposta = int (input("Escolha: "))
     if resposta == 1:
         print("Você apelou para o emocional.\n")
         jogador_apela_emocional()
     elif resposta == 2:
-        print("Você usou decidiu se valer da grosseria.\n")
+        print("Você decidiu se valer da grosseria.\n")
         jogador_grosseiro()
     else:
         print("Esta opção não é válida. Digite novamente.\n")
@@ -427,7 +427,7 @@ def jogador_apela_emocional():
 def jogador_grosseiro():
     print("O segurança definitivamente não gostou dessa abordagem e decide não acolher você.")
     print("Você permanece nas ruas do condomínio, tentando encontrar a saída sem sucesso.")
-    print("Você para de correr e decide caminhar, como se estivesse aceitando o seu destinho: seu encontro com o Sete Velas.\n")
+    print("Você para de correr e decide caminhar, como se estivesse aceitando o seu destino: seu encontro com o Sete Velas.\n")
     personagem_morre()
     
 def jogador_verifica_quarto():
@@ -466,7 +466,7 @@ def jogador_se_desculpa():
 def jogador_diz_senha():
     print("Você diz 'edflio'. Sua tentativa de sair do quarto se mostrou infrutífera, o que desagrada o líder do ritual.")
     print("Todos ao redor se tornam hostis diante da sua presença, impedindo que você saia do cômodo às pressas.")
-    print("Você é pego à força, é despido de suas roupas e é violentamente torturado com diversos instrumentos antigos.")
+    print("Você é pega à força, é despida de suas roupas e é violentamente torturada com diversos instrumentos antigos.")
     print("Seus gritos são abafados pela festa que ocorre nos andares superiores, e o tal candidato sequer lembra que você esteve na festa.\n")
     personagem_morre()
 
@@ -480,7 +480,7 @@ def rua_10():
         print("Você foi verificar mais de perto as armas expostas.\n")
         jogador_verifica_armas()
     elif resposta == 2:
-        print("Você decide esperar.\n")
+        print("Você decidiu esperar.\n")
         jogador_espera_sentado()
     else:
         print("Esta opção não é válida. Digite novamente.\n")
@@ -495,7 +495,7 @@ def jogador_verifica_armas():
         print("Você, com medo, decidiu fugir.\n")
         jogador_foge_medo()
     elif resposta == 2:
-        print("Você resolve questionar aquilo tudo.\n")
+        print("Você resolve questionar.\n")
         jogador_questiona()
     else:
         print("Esta opção não é válida. Digite novamente.\n")
@@ -541,22 +541,19 @@ def jogador_paga_propina():
     print("E durante o caminho até a saída, curiosamente, nenhum sinal da presença do Sete Velas...\n")
     personagem_vive()
 
-
 def jogador_não_paga():
     print("Ele te conduz à saída de maneira relutante e um mal pressentimento paira no ar.")
-    print("Logo ao sair, um dos seguranças externos recebe uma ordem para te matar, a fim de sanar a suposta dívida.")
+    print("Logo ao sair, um dos seguranças externos recebe a ordem para te matar, a fim de sanar a suposta dívida.")
     print("E antes mesmo de você ter qualquer noção do ocorrido, seu corpo inerte cai no chão com o impacto da bala na nuca.\n")
     personagem_morre()
-
 
 def jogador_trata_ferida():
     print("A única coisa a disposição é o cinto da sua calça que você usa para estancar o sangramento.")
     print("O tempo perdido para se tratar foi suficiente para o espírito te alcançar.\n")
     personagem_morre()
 
-
 def jogador_corre_sangrando():
-    print("Quanto mais você corre, mais sangue você perde. Começa a ficar tonto, fraco, sem fôlego e apaga.")
+    print("Quanto mais você corre, mais sangue você perde. Começa a ficar tonta, fraca e apaga.")
     print("Em um primeiro momento, você vê o espírito do Sete Velas bem distante.")
     print("Só posteriormente é possível sentir a parafina derretida queimando sua pele...\n")
     personagem_morre()
